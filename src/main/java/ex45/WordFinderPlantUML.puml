@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WordFinder{
+Reads file
+Turns file into string
+Replaces target words
+Returns string to OutputWriter
+}
+class OutputWriter{
+Prompts for output file name
+Writes output
+}
+
+OutputWriter <|-- WordFinder
+
+@enduml

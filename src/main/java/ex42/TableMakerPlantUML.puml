@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TableMaker {
+Format Top of the Table
+}
+class ParsingDataFile {
+Reads from File
+Divides Input into Strings
+Prints Strings
+}
+
+ParsingDataFile <|-- TableMaker
+
+
+
+@enduml

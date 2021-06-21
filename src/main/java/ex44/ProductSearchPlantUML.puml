@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+ProductSearch <|- Product
+Product <|- ProductSearch
+
+class ProductSearch {
+Reads Json
+Parses data into Object
+Puts objects into ArrayList
+
+Takes input form user
+Searches for Product
+Reports data assigned to object
+}
+
+Object Product {
+Name
+Price
+Quantity
+}
+
+@enduml

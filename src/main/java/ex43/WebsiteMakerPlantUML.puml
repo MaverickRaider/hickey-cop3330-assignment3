@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class WebsiteMaker {
+Asks a User for Inputs
+Checks user inpus
+Creates HTML site with assigned name
+Tags the author on the site
+Adds JS folder or CSS folder or both
+}
+
+
+@enduml
